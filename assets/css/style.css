@@ -54,11 +54,12 @@ nav {
 }
 
 #headerName {
-	margin-top: 25%;
+	margin-top: 23%;
 	color: #fff;
 	background-color: #8FA758;
-	padding: 2%;
+	padding: 4%;
 	font-size: 30px;
+	
 }
 
 #emilyImg {
@@ -81,7 +82,7 @@ nav {
 }
 
 #contactMe {
-	color: white;
+	color: #552920;
 }
 
 .projectTitle {
@@ -90,7 +91,7 @@ nav {
 }
 
 .btn {
-	background-color: #8FA758;
+	background-color: #552920;
 }
 
 #portfolio{
