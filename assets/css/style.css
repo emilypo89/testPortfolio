@@ -1,0 +1,200 @@
+body {
+	background: #FFF;
+	width: 100%;
+	font-family: 'Varela Round', sans-serif;
+	background-color: #F7BB88; 
+}
+
+textarea {
+	height: 75%;
+	width: 75%;
+}
+
+label {
+	color: white;
+}
+
+h1 {
+	color: white;
+}
+
+nav {
+	background-color: #552920;
+}
+
+
+.page-footer {
+	background-color: #8FA758;
+}
+
+.footer-copyright {
+	background-color: #552920;
+}
+
+.brand-logo {
+	margin-left: 5%;
+}
+
+.projectDescription {
+	height: 135px;
+	padding: 24px; 
+}
+
+.projectIcon {
+	height: 100%;
+	width: 100%;
+}
+
+#nav-mobile {
+	margin-right: 5%;
+}
+
+#aboutMe {
+	background: url("../images/coverImage.jpg") no-repeat top center;
+}
+
+#headerName {
+	margin-top: 25%;
+	color: #fff;
+	background-color: #8FA758;
+	padding: 2%;
+	font-size: 30px;
+}
+
+#emilyImg {
+	align-items: center;
+	margin-top: 56%;
+	padding-left: 5%;
+	background-color: #8FA758;
+}
+
+#emily{
+	height: 75%;
+	width: 75%;
+	margin-left: 14%;
+}
+
+#title {
+	padding: 1%;
+	margin-top: -20%;
+	margin-right: 12%;
+}
+
+#contactMe {
+	color: white;
+}
+
+.projectTitle {
+	text-align: center;
+	margin-right: 0px;
+}
+
+.btn {
+	background-color: #8FA758;
+}
+
+#portfolio{
+	background-color: #552920;
+	margin: 0;
+	width: 100%;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#navImg {
+	height: 100%;
+	width: 100%;
+}
+
+.connectLogo {
+	height: 15%;
+	width: 15%;
+	margin: 2%;
+}
+
+@media screen and (max-width: 960px) {
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;
+	}
+
+	h4 {
+		right: 35px;
+	}
+
+	#navbar {
+		position: static;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	#connect
+	#aboutme, #porfolio {
+		margin: 2%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;
+	}
+
+	h4 {
+		right: 35px;
+	}
+
+	#navbar {
+		position: static;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	#connect
+	#aboutme, #porfolio {
+		margin: 2%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	li {
+		float: left;
+		width: 33%;
+		text-align: center;	
+	}
+
+	h4 {
+		right: 35px;
+	}
+
+	#navbar {
+		position: static;
+	}
+
+	#logo {
+		width: 100%;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	#connect
+	#aboutme, #porfolio {
+		margin: 2%;
+	}
+
+	.navbar-header{
+		padding: 0;
+	}
+}
+
