@@ -128,45 +128,29 @@ footer.page-footer {
 }
 
 
-/*@media screen and (max-width: 1280px) {
-	.card {
-		width: 230px;
-		height: 300px;
-		/*margin-right: 75%;*/
-	/*}*/
-
-/*		#project1,
-	#project2,
-	#project3,
-	#project4  {
-		position: relative;
-	}
-
-
+@media screen and (max-width: 1300px) {
 	#mmdImg {
 		height: 118px;
 	}
 
-	#newsImg {
-		height: 145px;
-	}*/
-
-/*}*/
+	#travelbudImg {
+		height: 118px;
+	}
+}
 
 @media screen and (max-width: 1024px) {
-	#emilyImg {
+/*	#emilyImg {
 		margin-top: 20%;
-	}
+	}*/
 
 	#portfolio {
 		padding: 0;
-		padding-bottom: 15%;
+		padding-bottom: 40%;
 	}
 
-	.card {
+/*	.card {
 		width: 230px;
 		height: 300px;
-		/*margin-right: 75%;*/
 	}
 
 	.card .card-content {
@@ -202,92 +186,59 @@ footer.page-footer {
 
 	#newsImg {
 		height: 132px;
-	}
+	}*/
 }
 
-@media screen and (max-width: 768px) {
-	#emilyImg {
-		margin-top: 20%;
-	}
-
-	#logo {
-		margin-left: -1%;
-	}
-
-	#portfolio {
-		padding: 0;
-		padding-bottom: 15%;
-	}
-	.card {
-		width: 295px;
-		height: 300px;
-	}
-
-	#project1,
-	#project2,
-	#project3,
-	#project4  {
-		position: relative;
-		margin-left: 20%;
-	}
-
-	#project2 {
-		left: 100px;
-	}
-
-	#project3 {
-		left: -490px;
-		top: 348px;
-	}
-
-	#project4 {
-		left: 350px;
-		top: 27px;
-	}
-
+/*@media screen and (max-width: 768px) {
+#emilyImg {
+	margin-top: 20%;
 }
+
+#logo {
+	margin-left: -1%;
+}
+
+#portfolio {
+	padding: 0;
+	padding-bottom: 15%;
+}
+.card {
+	width: 295px;
+	height: 300px;
+}
+
+#project1,
+#project2,
+#project3,
+#project4  {
+	position: relative;
+	margin-left: 20%;
+}
+
+#project2 {
+	left: 100px;
+}
+
+#project3 {
+	left: -490px;
+	top: 348px;
+}
+
+#project4 {
+	left: 350px;
+	top: 27px;
+}
+
+}*/
 
 @media screen and (max-width: 640px) {
-	#portfolio {
-		padding: 0;
-		padding-bottom: 15%;
-	}
-	.card {
-		width: 295px;
-		height: 300px;
-		/*margin-right: 75%;*/
-	}
 
-	#project1,
-	#project2,
-	#project3,
-	#project4  {
-		position: relative;
-		/*margin-right: 40%;*/
-		margin-left: 0.5%;
-	}
-
-	#project2 {
-		left: 100px;
-	}
-
-	#project3 {
-		left: -407px;
-		top: 348px;
-	}
-
-	#project4 {
-		left: 306px;
-		top: 27px;
-	}
 
 	#logo {
 		margin-left: -1%;
 	}
 	
-	#emilyImg {
-		margin-top: 20%;
-	}
+
 
 }
 
@@ -295,8 +246,8 @@ footer.page-footer {
 @media screen and (max-width: 480px) {
 	#portfolio {
 		padding-bottom: 0px;
-    margin-bottom: 0px;
-    height: 1552px;
+    /*margin-bottom: 0px;
+    /*height: 1552px;*/
 	}
 	#headerName {
 		margin-left: 5%;
@@ -308,25 +259,13 @@ footer.page-footer {
 		margin-top: -10%;
 	}
 
-	#applications {
-		/*margin-left: -35%;*/
-	}
-
 	.card {
-		width: 300px;
-		margin-bottom: 75%;
-		margin-left: -95%;
+		/*width: 300px;*/
+		margin-bottom: 30%;
+		/*margin-left: -95%;*/
 	}
 
-	#project1,
-	#project2,
-	#project3,
-	#project4  {
-		position: relative;
-		/*margin-right: 40%;*/
-	}
-
-	#project1 {
+/*	#project1 {
 		left: 70px;
 	}
 
@@ -347,5 +286,27 @@ footer.page-footer {
 
 	#contactMe{
 
-	}
+	}*/
 }
+
+/*@media screen and (max-width: 480px) {
+ 	#project1 {
+		left: 25px;
+	}
+
+	#project2 {
+		top: -175px;
+		left: 25px;
+	}
+
+	#project3 {
+		top: -350px;
+		left: 25px;
+	}
+
+	#project4 {
+		top: -520px;
+		left: 25px;
+	}
+
+ }*/
