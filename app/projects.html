@@ -9,9 +9,9 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Emily Polansky</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>               
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">           
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>    
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
@@ -40,6 +40,23 @@
       <h1 id="applications">Projects</h1>
     </div>
   </div>
+<!--   <div class="row">
+    <div class="col xs12 s12 m6 l6">
+      <div class="card sticky-action">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="assets/images/glimpse1.jpg" alt="Project-1" class="project-icon" id="glimpseImg">
+        </div>
+        <div class="card-content projectDescription">
+          <span class="card-title activator grey-text text-darken-4">glimpse<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">glimpse<i class="material-icons right">close</i></span>
+          <p>A shared calendar application that makes planning group events easier.</p>
+        </div>
+      </div>
+    </div>
+   </div>  -->
   <div class="row">
     <div class="col xs12 s12 m6 l6">
       <div class="card" id="project1">
@@ -50,10 +67,23 @@
           <p>A shared calendar application that makes planning group events easier.</p>
         </div>
         <div class="card-action projectTitle">
-          <a href="https://glimpsecalendar.herokuapp.com/" target="_blank">glimpse</a>
+          <!-- Modal Trigger -->
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">glimpse</a>
         </div>
       </div>
     </div>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h3 style="font-family: 'Yellowtail', cursive;">glimpse</h3>
+          <p>Backend Development</p>
+          <p style="text-align: left;">Glimpse is a shared calendar application that makes planning group events easier and organized. This application uses React, an Express Server, Node, and MongoDB to store the users shared calendars.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+          <a href="https://glimpsecalendar.herokuapp.com/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">Check it Out</a>
+        </div>
+      </div>
     <div class="col xs12 s12 m6 l6">
       <div class="card" id="project2">
         <div class="card-image">
@@ -63,8 +93,20 @@
           <p>Handy application for storing notes from medical visits, appointments, to do items, and doctors information.</p>
         </div>
         <div class="card-action projectTitle">
-          <a href="https://sheltered-badlands-71487.herokuapp.com/users" target="_blank">My Medical Diary</a>
+         <a class="waves-effect waves-light btn modal-trigger" href="#modal2">My Medical Diary</a>
         </div>
+      </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h3 style="font-family: 'Yellowtail', cursive;">My Medical Diary</h3>
+        <p>Backend Development</p>
+        <p style="text-align: left;">My Medical Diary is a handy application for storing notes from medical visits, appointments, to do items, and doctors' information. For this application we used a mySQL database, Sequalize and Handlebars Node packages, Javascript, and Bootstrap 4.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        <a href="https://sheltered-badlands-71487.herokuapp.com/users" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">Check it Out</a>
       </div>
     </div>
   </div>
@@ -78,8 +120,21 @@
           <p>Travel app that provides the user with travel information for the city of their choice.</p>
         </div>        
         <div class="card-action projectTitle">
-          <a href="https://github.com/eXo5/travelbuddy" target="_blank">Travel Buddy</a>
+          <!-- <a href="https://exo5.github.io/travelbuddy/index.html" target="_blank">Travel Buddy</a> -->
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal3">Travel Buddy</a>
         </div>
+      </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <h3 style="font-family: 'Yellowtail', cursive;">TravelBuddy</h3>
+        <p>Frontend Development/Design</p>
+        <p style="text-align: left;">TravelBuddy is a travel application that provides the user with information about places to stay, places to eat, things to do, and the current headlines for the city of their choice. This application uses HTML, CSS, Google Materalize, and the New York Times, Zomato, Trip Expert, and Open Weather Map APIs.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        <a href="https://exo5.github.io/travelbuddy/index.html" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">Check it Out</a>
       </div>
     </div>
     <div class="col xs12 s12 m6 l6">
@@ -91,8 +146,21 @@
           <p>App that scrapes articles from a website and allows the user to save those articles in a database.</p>
         </div>
         <div class="card-action projectTitle">
-          <a href="https://mighty-retreat-57613.herokuapp.com/" target="_blank">News Scraper</a>
+          <!-- <a href="https://mighty-retreat-57613.herokuapp.com/" target="_blank">News Scraper</a> -->
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal4">News Scraper</a>
         </div>
+      </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <h3 style="font-family: 'Yellowtail', cursive;">News Scraper</h3>
+        <p>Full Stack Development</p>
+        <p style="text-align: left;">News Scraper is an application that scrapes articles from the Smithsonian Magazine a website and displays them on the screen. The user is then able to save those articles in a database and write notes about those saved articles. This applications uses HTML, CSS, Javascript, MongoDB, and Node packages Express and Mongoose.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        <a href="https://mighty-retreat-57613.herokuapp.com/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat">Check it Out</a>
       </div>
     </div>
   </div>
@@ -124,6 +192,12 @@
  <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <!-- <script src="assets/javascript/app.js"></script> -->
+  <script type="text/javascript">
+      $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+  </script>
 
 
  </body>
