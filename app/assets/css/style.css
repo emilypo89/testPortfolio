@@ -2,7 +2,7 @@ body {
 	/*background: #FFF;*/
 	width: 100%;
 	font-family: 'Varela Round', sans-serif;
-	background-color: #F7BB88; 
+	background-color: #f5796c; 
 }
 
 textarea {
@@ -31,8 +31,27 @@ footer.page-footer {
 	background-color: #552920;
 }
 
+#footerNavLinks,
+li {
+	float: right;
+}
+
+li {
+	margin-left: 25px;
+}
+
+a {
+	color: #fff;
+}
+
+/*#copyright {
+	margin-top: 5px;
+}
+*/
+
 .brand-logo {
 	margin-left: 5%;
+	font-family: 'Yellowtail', cursive;
 }
 
 .projectDescription {
@@ -68,7 +87,7 @@ footer.page-footer {
 #headerName {
 	/*margin-top: 23%;*/
 	color: #fff;
-	background-color: #F7BB88; 
+	background-color: #f5796c; 
 	padding: 4%;
 	/*font-size: 30px;*/
 	bottom: 5%;
@@ -80,7 +99,7 @@ footer.page-footer {
 	align-items: center;
 	/*margin-top: 56%;*/
 	padding-left: 5%;
-	background-color: #F7BB88; 
+	background-color: #f5796c; 
 	margin-top: -10%;
 	margin-bottom: 5%;
 }
@@ -89,6 +108,7 @@ footer.page-footer {
 	height: 75%;
 	width: 75%;
 	margin-left: 14%;
+	margin-top: 15%;
 }
 
 #title {
@@ -111,13 +131,17 @@ footer.page-footer {
 }
 
 #portfolio{
-	background-color: #8FA758;
+	/*background-color: #8FA758;*/
 	margin: 0;
 	padding-left: 150px;
 	padding-right: 150px;
 	padding-bottom: 50px;
 	text-align: center;
 	margin-bottom: 50px;
+}
+
+#applications {
+	font-family: 'Yellowtail', cursive;
 }
 
 #mmdImg {
