@@ -25,6 +25,7 @@ nav {
 
 footer.page-footer {
 	background-color: #8FA758;
+	color: #fff;
 }
 
 .footer-copyright {
@@ -144,13 +145,6 @@ a {
 	font-family: 'Yellowtail', cursive;
 }
 
-/*#mmdImg {
-	height: 115px;
-}
-
-#travelbudImg {
-	height: 115px;
-}*/
 
 .connectLogo {
 	height: 15%;
